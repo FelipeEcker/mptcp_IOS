@@ -1,0 +1,3 @@
+- Adjust to read the result command on IRC channel (make discussion).
+- Stable port to OpenBSD system.
+- Stable port to NetBSD system.
