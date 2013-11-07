@@ -443,7 +443,7 @@ static void __bsd_listen (   uchar *args,
     if (!__lookup(_data.source, (char *)[self.source.text UTF8String], 0, true)) return;
     if (!__lookup(_data.target, (char *)[self.target.text UTF8String], 0, false)) return;
    
-    //Pool of threads...
+    //Pool of threads - Overture...
     for (uint index = 0; index < [self.threadsLabel.text intValue]; index++ ) {
         if (self.flood.on) {
             NSThread *thread = [[NSThread alloc] initWithTarget:self selector:@selector(__burst:) object:[NSNumber numberWithUnsignedInt:index]];
