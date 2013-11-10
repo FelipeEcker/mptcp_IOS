@@ -208,7 +208,7 @@ bool __lookup( struct sockaddr_in *_sockaddr,
         "em0","em1","em2",
         "pdp_ip0","pdp_ip1","pdp_ip2",
         "wlan0","wlan1","wlan2",
-        "lo","lo0","lo1", NULL
+        "lo","lo0","lo1","lo2", NULL
     };
     
     char __ip[INET_ADDRSTRLEN];
